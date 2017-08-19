@@ -16,7 +16,7 @@ const ComOverTCP = require("qz-modbus-serial").ComOverTcpPort;
 
 
 const config = require('../../config.json');
-const driver_path = (config.drivers || "").replace("$exec$",process.cwd())+"/".replace(/\/\//g,'/');
+//const driver_path = (config.drivers || "").replace("$exec$",process.cwd())+"/".replace(/\/\//g,'/');
 const classType = require('./DLT645OnTCPDrivers');
 
 const TAGS = {
